@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function NotFound(){return <main className="not-found"><span>404</span><h1>이 기록은 아직 없어요.</h1><p>우리의 공간으로 돌아가 볼까요?</p><Link className="button" href="/app">홈으로 돌아가기</Link></main>}
