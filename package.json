@@ -7,10 +7,10 @@
   },
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "opennextjs-cloudflare build",
-    "build:next": "next build",
+    "build": "next build",
+    "build:cf": "opennextjs-cloudflare build",
     "start": "next start",
-    "test": "npm run build:next",
+    "test": "npm run build",
     "lint": "next lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
